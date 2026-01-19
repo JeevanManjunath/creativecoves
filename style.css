@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: linear-gradient(rgba(0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('https://static.dezeen.com/uploads/2020/12/home-interiors-residential-2020-dezeen-roundups_dezeen_hero-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-head {
+    color: white;
+    font-family: Bree Serif;
+}
+
+.main-para {
+    color: white;
+    font-family: Bree Serif;
+}
+
+.button {
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    border-width: 1px;
+    margin: 5px;
+}
+
+.border {
+    border-color: white;
+    border-style: solid;
+    width: 50px;
+    height: 100px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.logo {
+    height: 70px;
+    width: 90px;
+}
+
+#navbar {
+    color: black;
+}
+
+.wcu-section {
+    background-color: #ECF0F1;
+    border-radius: 10px;
+
+}
+
+.wcu-head {
+    font-size: 26px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.wcu-para {
+    font-family: Roboto;
+}
+
+.wcu-section-card {
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.wcu-card-head {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.wcu-card-img {
+    height: 20vh;
+    width: 45%;
+}
+
+.explore-card {
+    background-color: #ECF0F1;
+    border-radius: 10px;
+}
+
+.explore-head {
+    font-size: 26px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.explore-para {
+    font-family: Roboto;
+}
+
+.explore-section-card {
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.explore-card-img {
+    height: 25vh;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.explore-card-head {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.view-color {
+    color: black;
+}
+
+.about-card {
+    background-color: #ECF0F1;
+    border-radius: 10px;
+}
+
+.about-card-img {
+    height: 40vh;
+    width: 40vh;
+    border-radius: 20px;
+}
+
+.about-head {
+    font-size: 26px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: left;
+}
+
+.about-para {
+    font-family: Roboto;
+    text-align: left;
+    font-size: 21px;
+}
+
+.payment-sec {
+    background-color: #ECF0F1;
+}
+
+.payment-head {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.payment-para {
+    font-size: 24px;
+}
+
+.payment-card-img {
+    height: 50px;
+    padding: 10px;
+}
+
+.head-follow {
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 30px;
+
+}
+
+.follow-us {
+    background-color: #ecf0f1;
+    border-radius: 16px;
+}
+
+.follow-icon {
+    font-size: 50px;
+}
+
+.coro {
+    background-color: #ffffff;
+    height: 25%;
+    width: 93%;
+    border-radius: 20px;
+}
+
+.coro-image {
+    height: 100%;
+}

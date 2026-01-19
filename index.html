@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="qwerty.js" defer></script>
+
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2af1f3c033.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="bg-container">
+        <div>
+            <div>
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="https://res.cloudinary.com/dxprftbkd/image/upload/v1721549893/mt3qpnxkaf42tudrq2td.jpg">
+                            <img src="https://res.cloudinary.com/dxprftbkd/image/upload/v1721549893/mt3qpnxkaf42tudrq2td.jpg" class="logo" />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ml-auto">
+                                <a class="nav-link active" href="#sectionhome">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#sectionwcu" style="color:black;">Why choose us?</a>
+                                <a class="nav-link" href="#sectionexplore" style="color:black;">Explore Interior</a>
+                                <a class="nav-link" href="#sectionabout" style="color:black;">About Us</a>
+                                <a class="nav-link" href="#sectionOrderandpayments" style="color:black;">Bookings & Payment</a>
+                                <a class="nav-link" href="#sectionFollowus" style="color:black;">Follow Us</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div id="sectionhome">
+                    <div class="d-flex flex-column justify-content-center text-center">
+                        <h1 class="main-head" style="margin-top:250px;">Creative Coves</h1>
+                        <p class="main-para">Transforming Ideas into Beautiful Realities</p>
+                        <div>
+                            <a href="#sectionwcu" class="button border">
+                                View More
+                            </a>
+                            <a href="#sectionabout" class="button border">About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="coro m-3 text-center d-md-none">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/6764993/pexels-photo-6764993.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="wcu-section m-3 p-2" id="sectionwcu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <h1 class="wcu-head">Why Creative Coves?</h1>
+                        <p wcu-para>At Creative Coves, we bring your vision to life with personalized, innovative designs, creating beautiful, functional spaces that feel like home.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-section-card shadow">
+                        <img src="https://res.cloudinary.com/dxprftbkd/image/upload/v1721554045/injjyaprshtqf8xqvjy5.png" class="wcu-card-img p-3" />
+                        <h1 class="wcu-card-head">Best Interior</h1>
+                        <p>Choose Creative Coves for innovative, personalized designs that transform your space into a beautiful and functional home.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-section-card shadow">
+                        <img src="https://res.cloudinary.com/dxprftbkd/image/upload/v1721553880/oc7g6jrqzv2prge26cpf.png" class="wcu-card-img p-3" />
+                        <h1 class="wcu-card-head">Best Offer</h1>
+                        <p>Enjoy competitive pricing, exclusive design packages, and special discounts that provide exceptional value tailored to your budget.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-section-card shadow">
+                        <img src="https://res.cloudinary.com/dxprftbkd/image/upload/v1721554373/ti2egvvyf6xz91vt2dcj.png" class="wcu-card-img p-3" />
+                        <h1 class="wcu-card-head">Best Customer Service</h1>
+                        <p>At Creative Coves, we provide exceptional customer service with personalized support and expert guidance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="explore-card m-3 p-2" id="sectionexplore">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="explore-head">Explore Interior</h1>
+                    <p class="ecplore-para">Explore Creative Coves to discover innovative designs, our collaborative process, and exceptional customer experiences that bring your vision to life.</p>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="explore-section-card">
+                        <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="explore-card-img" />
+                        <h1 class="explore-card-head">Living Room</h1>
+                        <a href="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="view-color">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="explore-section-card">
+                        <img src="https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="explore-card-img" />
+                        <h1 class="explore-card-head">Kitchen</h1>
+                        <a href="https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="view-color">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="explore-section-card">
+                        <img src="https://images.pexels.com/photos/90319/pexels-photo-90319.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="explore-card-img" />
+                        <h1 class="explore-card-head">Bed Room</h1>
+                        <a href="https://images.pexels.com/photos/90319/pexels-photo-90319.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="view-color">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="explore-section-card">
+                        <img src="https://images.pexels.com/photos/7061340/pexels-photo-7061340.jpeg" class="explore-card-img" />
+                        <h1 class="explore-card-head">Balcony</h1>
+                        <a href="https://images.pexels.com/photos/7061340/pexels-photo-7061340.jpeg" class="view-color">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="explore-section-card">
+                        <img src="https://images.pexels.com/photos/3144581/pexels-photo-3144581.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="explore-card-img" />
+                        <h1 class="explore-card-head">Dining Hall</h1>
+                        <a href="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="view-color">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="explore-section-card">
+                        <img src="https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="explore-card-img" />
+                        <h1 class="explore-card-head">Bathroom</h1>
+                        <a href="https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1" class="view-color">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-card text-center p-3 m-3" id="sectionabout">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <img src="https://res.cloudinary.com/dxprftbkd/image/upload/v1721549893/mt3qpnxkaf42tudrq2td.jpg" class="about-card-img" />
+                </div>
+                <div class="col-12 col-md-7">
+                    <h1 class="about-head">About Us</h1>
+                    <p class="about-para">At Creative Coves, we believe that every space has the potential to inspire and delight. Founded by a team of passionate designers, our mission is to transform ordinary spaces into extraordinary havens that reflect the unique personalities and lifestyles of our clients. With a commitment to innovation, quality, and personalized service, we approach each project with a fresh perspective, ensuring that no two designs are ever alike. From concept to completion, we work closely with you to bring your vision to life. Join us at Creative Coves, where your dream space becomes our creative mission</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="payment-sec m-3 p-4" id="sectionOrderandpayments">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="payment-head">
+                            Payments
+                        </h1>
+                        <p class="payment-para">
+                            Enjoy hassle-free payment with the plenitude of payment options
+                            available for you .
+                            Plus, you get a 5% discount on every order every time you pay
+                            online. Enjoy hassle-free payment with the plenitude of payment options
+                            available for you. It's quite a sight to see your new collections.
+
+                        </p>
+                        <div class="  d-flex flex-row justify-content-start  mt-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="payment-card-img" />
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" class="payment-card-img" />
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" class="payment-card-img" />
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png" class="payment-card-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="follow-us text-center m-3 p-4" id="sectionFollowus">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="head-follow">Follow us</h1>
+                    </div>
+                    <div class="col-12">
+                        <div class="follow-icon">
+                            <i class="fa-brands fa-square-twitter"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/js/ccbp-ui-kit.js"></script>
+</body></html>
